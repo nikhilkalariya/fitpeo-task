@@ -5,7 +5,8 @@ import { HiOutlineBell, HiOutlineCog6Tooth, HiOutlineEnvelope, HiMiniSquares2X2 
 function Header() {
   return (
     <nav className="bg-gray-900 flex justify-between p-4" >
-      <div className="flex gap-2 items-center">
+      <div className="flex gap-4 items-center">
+        <HiMiniSquares2X2 className="block lg:hidden h-8 w-8 bg-gray-900 fill-sky-500 " />
         <form className="max-w-md mx-auto">
           <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
           <div className="relative">

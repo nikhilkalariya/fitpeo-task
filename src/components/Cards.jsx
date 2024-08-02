@@ -12,11 +12,11 @@ const Cards = () => {
   ];
 
   return (
-    <div className=" bg-black grid grid-cols-4  gap-4 mt-4">
+    <div className=" bg-black grid grid-cols-4 gap-4 mt-4">
       {cards.map((card, index) => (
         <div
           key={index}
-          className="bg-gray-800 text-white p-4 rounded-lg shadow-md flex flex-col gap-3 "
+          className="bg-gray-800 text-white p-6 rounded-lg shadow-md flex flex-col gap-3 "
         > 
           <span>{card.icon}</span>
           <h4 className="text-xs">{card.title}</h4>

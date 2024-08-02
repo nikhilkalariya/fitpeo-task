@@ -17,7 +17,7 @@ const Cardsprogress = () => {
         >
           <div className="flex justify-between">
             <h4 className="font-semibold">{card.title}</h4>
-            <CircularProgressbarWithChildren className='h-24 w-24' 
+            <CircularProgressbarWithChildren className='h-20 w-20' 
             styles={buildStyles({
               pathColor: "blue",
               trailColor: "lightblue"
