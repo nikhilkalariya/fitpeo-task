@@ -121,7 +121,7 @@ const ActivityChart = () => {
           <option>Yearly</option>
         </select>
       </div>
-      <div className="h-52">
+      <div className="h-44">
         <Bar data={getDataForTimeFrame()} options={options} />
       </div>
     </div>
