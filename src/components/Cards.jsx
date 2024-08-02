@@ -12,7 +12,7 @@ const Cards = () => {
   ];
 
   return (
-    <div className=" bg-black grid grid-cols-4 gap-4 mt-4">
+    <div className=" bg-black grid grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
       {cards.map((card, index) => (
         <div
           key={index}
