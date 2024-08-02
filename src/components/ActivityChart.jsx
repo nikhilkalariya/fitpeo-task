@@ -17,7 +17,7 @@ const ActivityChart = () => {
           datasets: [
             {
               label: 'Activity',
-              data: [1200, 1900, 3000, 5000, 2300, 3400, 2900],
+              data: [1200, 1900, 30000, 10000, 2300, 3400, 2900,],
               backgroundColor: 'rgba(96, 165, 250, 0.7)', // Bar color
               borderRadius: 20, // Rounded corners
               borderSkipped: false,
